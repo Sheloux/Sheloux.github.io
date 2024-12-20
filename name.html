@@ -7,15 +7,22 @@
     <title>3D Interactive Card</title>
 
     <link rel="stylesheet" href="css/reset.css">
+
 </head>
 
 <body>
-    <h1>Hello</h1>
+    <div class="Title">
+        <h1>You just winned a Padel camp !</h1>
+    </div>
     <style>
+        @font-face {
+            font-family: Font;
+            src: url(Assets/font.otf);
+        }
+
         body {
             margin: 0;
             color: white;
-            font-family: Arial, sans-serif;
             overflow: hidden;
             background-color: #d0e9ff;
             display: flex;
@@ -27,6 +34,7 @@
         }
 
         .credits-container {
+            font-family: Arial, sans-serif;
             position: relative;
             height: 100vh;
             width: 100%;
@@ -41,6 +49,10 @@
             animation: roll 10s linear infinite;
         }
 
+        .Title {
+            font-family: font;
+        }
+
         @keyframes roll {
             0% {
                 top: 100%;
@@ -53,7 +65,7 @@
     </style>
     <script>
         let ScdAudio = new Audio("/Assets/Sound_2.mp3");
-        ScdAudio.play();
+        // ScdAudio.play();
     </script>
     <div class="credits-container">
         <div class="credits">
@@ -71,7 +83,6 @@
             <p>Thierry: ...</p>
             <p>Kevin: ...</p>
             <p>Jonas: ...</p>
-            <h2>The End</h2>
         </div>
     </div>
 </body>
