@@ -37,9 +37,6 @@ function applyTilt(tiltX, tiltY) {
 function resetTilt() {
     card.style.transform = 'rotateX(0deg) rotateY(0deg)';
 }
-function playAudio() {
-    audio.play();
-}
 
 // Mouse events
 card.addEventListener('mouseenter', resetTilt);
@@ -57,4 +54,13 @@ card.addEventListener('touchmove', (e) => {
 });
 card.addEventListener('touchend', resetTilt);
 
-playAudio();
+// Play audio only on user interaction
+function playAudio() {
+    audio.play().catch((err) => {
+        console.error("Audio playback failed:", err);
+    });
+}
+
+// Attach audio playback to a user interaction
+card.addEventListener('mousedown', playAudio);
+card.addEventListener('touchstart', playAudio);
