@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -8,6 +9,7 @@ body {
     font-family: Arial, sans-serif;
     overflow: hidden;
     touch-action: none;
+    gap: 30px;
 }
 
 .card-container {
@@ -26,23 +28,23 @@ body {
     background: #f0f0f0;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transform-origin: center center;
-    background-image: url("/Assets/frame.png");
+    background-image: url("/Assets/persona.png");
 }
 
 .card-content {
-    /* position: absolute; */
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     /* align-items: center; */
-    color: #4A4647;
+    color: #0B1737;
     /* text-align: top; */
     padding: 20px;
     box-sizing: border-box;
 }
+
 
 @media (max-width: 480px) {
     .card-container {
@@ -52,26 +54,26 @@ body {
 }
 
 button {
-    cursor: pointer;
     font-weight: 700;
-    transition: all 0.2s;
+    transition: all 1s;
     padding: 10px 20px;
     border-radius: 100px;
-    background: #cfef00;
+    background: #0B1737;
     border: 1px solid transparent;
     display: flex;
     align-items: center;
     font-size: 15px;
+    color: #f0f0f0;
 }
 
 button:hover {
-    background: #c4e201;
+    background: #E424B4;
 }
 
 button>svg {
     width: 34px;
     margin-left: 10px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 button:hover svg {
@@ -80,4 +82,11 @@ button:hover svg {
 
 button:active {
     transform: scale(0.95);
+}
+
+a {
+    text-decoration: none;
+    /* Removes the underline */
+    color: inherit;
+    /* Inherits text color from parent */
 }
