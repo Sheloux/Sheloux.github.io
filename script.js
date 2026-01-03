@@ -32,31 +32,31 @@ lenis.on('scroll', () => {
 });
 
 // Section 2: Scroll-triggered animations for each item
-const sections = document.querySelectorAll('.section-2, .section-4, .section-3, .section-5, .section-6');
+// const sections = document.querySelectorAll('.section-2, .section-4, .section-3, .section-5, .section-6');
 
-sections.forEach((section, i) => {
-    const container = section.querySelector('.container');
+// sections.forEach((section, i) => {
+//     const container = section.querySelector('.container');
 
-    if (!container) return;
+//     if (!container) return;
 
-    gsap.fromTo(container,
-        {
-            opacity: 0,
-            y: isMobile ? 100 : 200
-        },
-        {
-            opacity: 1,
-            y: 0,
-            ease: "power1.out",
-            scrollTrigger: {
-                trigger: section,
-                start: isMobile ? "top-=100 " : "top center+=100",
-                end: isMobile ? "top 40%" : "center center+=200",
-                scrub: isMobile ? 0.5 : 1,
-                markers: false
-            }
-        }
-    );
+//     gsap.fromTo(container,
+//         {
+//             opacity: 0,
+//             y: isMobile ? 100 : 200
+//         },
+//         {
+//             opacity: 1,
+//             y: 0,
+//             ease: "power1.out",
+//             scrollTrigger: {
+//                 trigger: section,
+//                 start: isMobile ? "top-=100 " : "top center+=100",
+//                 end: isMobile ? "top 40%" : "center center+=200",
+//                 scrub: isMobile ? 0.5 : 1,
+//                 markers: false
+//             }
+//         }
+//     );
 
     // // Fade out as it scrolls past
     // gsap.to(container, {
