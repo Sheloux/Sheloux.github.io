@@ -1,0 +1,62 @@
+/* ===========================
+   FONT MANAGEMENT
+   =========================== */
+
+@font-face {
+    font-family: Forma;
+    src: url(/Assets/FormaDJRBanner-Bold-Testing.woff);
+}
+
+/* Base Typography */
+html,
+body {
+    font-family: 'Forma', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Headings - Section Titles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* letter-spacing: -1px; */
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 4.8rem;
+    line-height: 0.98;
+    color: #ffffff;
+}
+
+
+/* Responsive Typography */
+@media (max-width: 800px) {
+    h1 {
+        font-size: 6rem;
+    }
+    
+    h2 {
+        font-size: 3.66rem;
+        line-height: 0.93;
+        letter-spacing: -0.2px;
+        text-align: left;
+        overflow-wrap: break-word;
+    }
+}
+
+
+/* ===========================
+   END FONT MANAGEMENT
+   =========================== */
