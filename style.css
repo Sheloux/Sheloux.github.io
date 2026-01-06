@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: auto;
     overflow-x: hidden;
-    background-image: url('bg.png');
+    background-image: url('Assets/bg.png');
     background-size: cover;
 
 }
@@ -22,7 +22,7 @@ body {
     body {
         width: 100%;
         height: auto;
-        background-image: url('bg.png');
+        background-image: url('Assets/bg.png');
         background-size: cover;
 
     }
@@ -402,7 +402,6 @@ body {
         height: auto;
         bottom: 300px;
         right: 100px;
-        filter: hue-rotate(320deg);
         animation: floating 6s ease-in-out infinite;
         animation-delay: 0.14s;
         z-index: 0;
