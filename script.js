@@ -230,7 +230,7 @@ let resizeTimer;
 window.addEventListener('resize', () => {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(() => {
-        setup3DCarousel();
+        // setup3DCarousel();
         ScrollTrigger.refresh();
     }, 250);
 });
