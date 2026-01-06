@@ -124,7 +124,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding-bottom: 60px;
+        padding-bottom: 25px;
         width: 100%;
         position: absolute;
         z-index: 1;
@@ -498,7 +498,7 @@ body {
     }
     #img-8 {
         position: absolute;
-        width: 340px;
+        width: 280px;
         height: auto;
         bottom: -25px;
         right: -100px;
@@ -553,10 +553,10 @@ body {
     }
     #img-13 {
         position: absolute;
-        width: 190px;
+        width: 260px;
         height: auto;
         bottom: 30px;
-        left: -40px;
+        left: -50px;
         animation: floating 4s ease-in-out infinite;
         animation-delay: 0.2s;
         z-index: 2;
@@ -574,7 +574,7 @@ body {
     }
     #img-15 {
         position: absolute;
-        width: 270px;
+        width: 20px;
         height: auto;
         bottom: 300px;
         right: 100px;
