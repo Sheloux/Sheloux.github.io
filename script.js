@@ -71,7 +71,7 @@ lenis.on('scroll', () => {
     //         markers: false
     //     }
     // });
-});
+// });
 
 
 // Section 3: Scroll-triggered image animations
