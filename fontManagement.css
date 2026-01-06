@@ -26,16 +26,16 @@ h4,
 h5,
 h6 {
     /* letter-spacing: -1px; */
+    font-size: 12rem;
     font-weight: 100;
 }
 
 h1 {
-    font-size: 5rem;
     text-align: center;
 }
 
 h2 {
-    font-size: 4.8rem;
+    font-size: 10rem;
     line-height: 0.98;
     color: #ffffff;
 }
@@ -46,7 +46,7 @@ h2 {
     h1 {
         font-size: 6rem;
     }
-    
+
     h2 {
         font-size: 3.66rem;
         line-height: 0.93;
