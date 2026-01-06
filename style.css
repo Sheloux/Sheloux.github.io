@@ -329,7 +329,6 @@ body {
         top: 0px;
         right: 30px;
         rotate: calc(-45deg);
-        /* filter: hue-rotate(320deg); */
         animation: floating 3s ease-in-out infinite;
         animation-delay: 0.8s;
         z-index: 120;
@@ -405,7 +404,7 @@ body {
         height: auto;
         bottom: 50px;
         right: 100px;
-        filter: hue-rotate(320deg);
+        /* filter: hue-rotate(320deg); */
         animation: floating 5s ease-in-out infinite;
         animation-delay: 0.1s;
         z-index: 1;
@@ -439,39 +438,39 @@ body {
     position: absolute;
     height: auto;
     animation: floating 6s ease-in-out infinite;
-    width: 600px;
-    top: -50px;
+    width: 800px;
+    top: -30px;
     right: -300px;
     rotate: calc(80deg);
     z-index: 100;
 }
 #img-2 {
     position: absolute;
-    width: 250px;
+    width: 550px;
     height: auto;
     width: 820px;
-    bottom: 10%;
+    bottom: 20px;
     left: -400px;
-    rotate: calc(30deg);
+    rotate: calc(20deg);
     animation: floating 4s ease-in-out infinite;
     animation-delay: 0.5s;
 
 }
 #img-3 {
     position: absolute;
-    width: 400px;
+    width: 550px;
     height: auto;
-    top: -100px;
-    left: -10px;
+    top: -120px;
+    left: 50px;
     animation: floating 5s ease-in-out infinite;
     animation-delay: 1s;
 }
 #img-4 {
     position: absolute;
-    width: 800px;
+    width: 1000px;
     height: auto;
     bottom: 70px;
-    right: -300px;
+    right: -200px;
     rotate: calc(190deg);
     z-index: 0;
     animation: floating 6s ease-in-out infinite;
@@ -479,9 +478,9 @@ body {
 }
 #img-5 {
     position: absolute;
-    width: 260px;
+    width: 400px;
     height: auto;
-    top: -160px;
+    top: -300px;
     left: -100px;
     rotate: calc(-10deg);
     animation: floating 6s ease-in-out infinite;
@@ -490,10 +489,10 @@ body {
 }
 #img-6 {
     position: absolute;
-    width: 230px;
+    width: 540px;
     height: auto;
-    top: 80px;
-    right: -20px;
+    top: 0px;
+    right: -90px;
     rotate: calc(20deg);
     animation: floating 4.5s ease-in-out infinite;
     animation-delay: 0.5s;
@@ -501,7 +500,7 @@ body {
 }
 #img-7 {
     position: absolute;
-    width: 250px;
+    width: 330px;
     height: auto;
     top: 0px;
     right: 30px;
@@ -535,7 +534,7 @@ body {
 }
 #img-10 {
     position: absolute;
-    width: 400px;
+    width: 600px;
     height: auto;
     bottom: -20px;
     right: 0px;
@@ -546,10 +545,10 @@ body {
 }
 #img-11 {
     position: absolute;
-    width: 120px;
+    width: 290px;
     height: auto;
-    top: -40px;
-    left: -10px;
+    top: -200px;
+    left: -50px;
     rotate: calc(16deg);
     animation: floating 5s ease-in-out infinite;
     animation-delay: 2s;
@@ -567,10 +566,10 @@ body {
 }
 #img-13 {
     position: absolute;
-    width: 200px;
+    width: 560px;
     height: auto;
-    bottom: -30px;
-    left: -40px;
+    bottom: -270px;
+    left: -60px;
     animation: floating 4s ease-in-out infinite;
     animation-delay: 0.2s;
     z-index: 2;
@@ -579,18 +578,18 @@ body {
     position: absolute;
     width: 200px;
     height: auto;
-    bottom: 160px;
-    left: 80px;
+    bottom: 60px;
+    left: 780px;
     animation: floating 5s ease-in-out infinite;
     animation-delay: 0.1s;
-    z-index: 1;
+    z-index: 0;
 }
 #img-15 {
     position: absolute;
-    width: 270px;
+    width: 500px;
     height: auto;
-    bottom: 300px;
-    right: 100px;
+    bottom: 160px;
+    right: 500px;
     filter: hue-rotate(320deg);
     animation: floating 6s ease-in-out infinite;
     animation-delay: 0.14s;
@@ -598,7 +597,7 @@ body {
 }
 #img-16 {
     position: absolute;
-    width: 160px;
+    width: 360px;
     height: auto;
     top: -120px;
     right: 5px;
