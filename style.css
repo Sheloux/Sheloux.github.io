@@ -405,7 +405,7 @@ body {
     z-index: 200;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .img-container {
         position: absolute;
         top: 0;
@@ -594,47 +594,6 @@ body {
         z-index: 200;
     }
 }
-
-
-
-
-/* Container for text in sections */
-.container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-    height: auto;
-    position: relative;
-    overflow: visible;
-    overflow-wrap: break-word;
-    z-index: 10;
-}
-
-.container h2 {
-    max-width: 100%;
-    width: 100%;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-}
-
-/* Section 5 */
-.section-5 {
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    overflow: visible;
-}
-
-/* Section 6 */
-.section-6 {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    overflow: visible;
-}
-
 
 @keyframes floating {
 
