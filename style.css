@@ -262,7 +262,7 @@ body {
     top: 0px;
     right: 20px;
     rotate: calc(-45deg);
-    filter: hue-rotate(320deg);
+    /* filter: hue-rotate(320deg); */
     animation: floating 3s ease-in-out infinite;
     animation-delay: 0.8s;
     z-index: 120;
