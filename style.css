@@ -232,207 +232,6 @@ body {
 .section-2 .container {
     z-index: 1;
 }
-
-@media (max-width: 800px) {
-    .img-container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-    }
-
-    #img-1 {
-        position: absolute;
-        height: auto;
-        animation: floating 6s ease-in-out infinite;
-        width: 600px;
-        top: -50px;
-        right: -300px;
-        rotate: calc(80deg);
-        z-index: 100;
-    }
-
-    #img-2 {
-        position: absolute;
-        width: 250px;
-        height: auto;
-        width: 820px;
-        bottom: 10%;
-        left: -400px;
-        rotate: calc(30deg);
-        animation: floating 4s ease-in-out infinite;
-        animation-delay: 0.5s;
-
-    }
-
-    .section-3 {
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        position: relative;
-        overflow: visible;
-        z-index: 0;
-    }
-
-    #img-3 {
-        position: absolute;
-        width: 400px;
-        height: auto;
-        top: -100px;
-        left: -10px;
-        animation: floating 5s ease-in-out infinite;
-        animation-delay: 1s;
-    }
-
-    #img-4 {
-        position: absolute;
-        width: 800px;
-        height: auto;
-        bottom: 70px;
-        right: -300px;
-        rotate: calc(190deg);
-        z-index: 0;
-        animation: floating 6s ease-in-out infinite;
-        animation-delay: 1.5s;
-    }
-
-    #img-5 {
-        position: absolute;
-        width: 260px;
-        height: auto;
-        top: -160px;
-        left: -100px;
-        rotate: calc(-10deg);
-        animation: floating 6s ease-in-out infinite;
-        animation-delay: 0.3s;
-        z-index: 100;
-    }
-
-    #img-6 {
-        position: absolute;
-        width: 230px;
-        height: auto;
-        top: 80px;
-        right: -20px;
-        rotate: calc(20deg);
-        animation: floating 4.5s ease-in-out infinite;
-        animation-delay: 0.5s;
-        z-index: 10;
-    }
-
-    #img-7 {
-        position: absolute;
-        width: 250px;
-        height: auto;
-        top: 0px;
-        right: 30px;
-        rotate: calc(-45deg);
-        animation: floating 3s ease-in-out infinite;
-        animation-delay: 0.8s;
-        z-index: 120;
-    }
-    #img-8 {
-        position: absolute;
-        width: 400px;
-        height: auto;
-        bottom: -80px;
-        right: -100px;
-        rotate: calc(-20deg);
-        animation: floating 5s ease-in-out infinite;
-        animation-delay: 1s;
-        z-index: 100;
-    }
-    #img-9 {
-        position: absolute;
-        width: 200px;
-        height: auto;
-        bottom: 40%;
-        right: -70px;
-        rotate: calc(78deg);
-        animation: floating 6s ease-in-out infinite;
-        animation-delay: 1s;
-        z-index: 10;
-    }
-    #img-10 {
-        position: absolute;
-        width: 400px;
-        height: auto;
-        bottom: -20px;
-        right: 0px;
-        /* rotate: calc(180deg); */
-        animation: floating 5s ease-in-out infinite;
-        animation-delay: 1s;
-        z-index: 1;
-    }
-
-    #img-11 {
-        position: absolute;
-        width: 120px;
-        height: auto;
-        top: -40px;
-        left: -10px;
-        rotate: calc(16deg);
-        animation: floating 5s ease-in-out infinite;
-        animation-delay: 2s;
-        z-index: 1;
-    }
-    #img-12 {
-        position: absolute;
-        width: 418px;
-        height: auto;
-        bottom: 25px;
-        right: 2px;
-        animation: floating 9s ease-in-out infinite;
-        animation-delay: 1s;
-        z-index: 0;
-    }
-    #img-13 {
-        position: absolute;
-        width: 190px;
-        height: auto;
-        bottom: 30px;
-        left: -40px;
-        animation: floating 4s ease-in-out infinite;
-        animation-delay: 0.2s;
-        z-index: 2;
-    }
-    #img-14 {
-        position: absolute;
-        width: 270px;
-        height: auto;
-        bottom: 50px;
-        right: 100px;
-        /* filter: hue-rotate(320deg); */
-        animation: floating 5s ease-in-out infinite;
-        animation-delay: 0.1s;
-        z-index: 1;
-    }
-    #img-15 {
-        position: absolute;
-        width: 370px;
-        height: auto;
-        bottom: 300px;
-        right: 100px;
-        animation: floating 6s ease-in-out infinite;
-        animation-delay: 0.14s;
-        z-index: 0;
-    }
-
-    #img-16 {
-        position: absolute;
-        width: 160px;
-        height: auto;
-        top: -120px;
-        right: 5px;
-        animation: floating 3s ease-in-out infinite;
-        animation-delay: 0.1s;
-        z-index: 200;
-    }
-}
-
-
 /* LAPTOP VERSION */
 #img-1 {
     position: absolute;
@@ -605,6 +404,198 @@ body {
     animation-delay: 0.1s;
     z-index: 200;
 }
+
+@media (max-width: 800px) {
+    .img-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+    #img-1 {
+        position: absolute;
+        height: auto;
+        animation: floating 6s ease-in-out infinite;
+        width: 600px;
+        top: -50px;
+        right: -300px;
+        rotate: calc(80deg);
+        z-index: 100;
+    }
+    #img-2 {
+        position: absolute;
+        width: 250px;
+        height: auto;
+        width: 820px;
+        bottom: 10%;
+        left: -400px;
+        rotate: calc(30deg);
+        animation: floating 4s ease-in-out infinite;
+        animation-delay: 0.5s;
+    }
+    .section-3 {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        position: relative;
+        overflow: visible;
+        z-index: 0;
+    }
+    #img-3 {
+        position: absolute;
+        width: 400px;
+        height: auto;
+        top: -100px;
+        left: -10px;
+        animation: floating 5s ease-in-out infinite;
+        animation-delay: 1s;
+    }
+    #img-4 {
+        position: absolute;
+        width: 800px;
+        height: auto;
+        bottom: 70px;
+        right: -300px;
+        rotate: calc(190deg);
+        z-index: 0;
+        animation: floating 6s ease-in-out infinite;
+        animation-delay: 1.5s;
+    }
+    #img-5 {
+        position: absolute;
+        width: 260px;
+        height: auto;
+        top: -160px;
+        left: -100px;
+        rotate: calc(-10deg);
+        animation: floating 6s ease-in-out infinite;
+        animation-delay: 0.3s;
+        z-index: 100;
+    }
+    #img-6 {
+        position: absolute;
+        width: 230px;
+        height: auto;
+        top: 80px;
+        right: -20px;
+        rotate: calc(20deg);
+        animation: floating 4.5s ease-in-out infinite;
+        animation-delay: 0.5s;
+        z-index: 10;
+    }
+    #img-7 {
+        position: absolute;
+        width: 250px;
+        height: auto;
+        top: 0px;
+        right: 30px;
+        rotate: calc(-45deg);
+        animation: floating 3s ease-in-out infinite;
+        animation-delay: 0.8s;
+        z-index: 120;
+    }
+    #img-8 {
+        position: absolute;
+        width: 400px;
+        height: auto;
+        bottom: -80px;
+        right: -100px;
+        rotate: calc(-20deg);
+        animation: floating 5s ease-in-out infinite;
+        animation-delay: 1s;
+        z-index: 100;
+    }
+    #img-9 {
+        position: absolute;
+        width: 200px;
+        height: auto;
+        bottom: 40%;
+        right: -70px;
+        rotate: calc(78deg);
+        animation: floating 6s ease-in-out infinite;
+        animation-delay: 1s;
+        z-index: 10;
+    }
+    #img-10 {
+        position: absolute;
+        width: 400px;
+        height: auto;
+        bottom: -20px;
+        right: 0px;
+        /* rotate: calc(180deg); */
+        animation: floating 5s ease-in-out infinite;
+        animation-delay: 1s;
+        z-index: 1;
+    }
+
+    #img-11 {
+        position: absolute;
+        width: 120px;
+        height: auto;
+        top: -40px;
+        left: -10px;
+        rotate: calc(16deg);
+        animation: floating 5s ease-in-out infinite;
+        animation-delay: 2s;
+        z-index: 1;
+    }
+    #img-12 {
+        position: absolute;
+        width: 418px;
+        height: auto;
+        bottom: 25px;
+        right: 2px;
+        animation: floating 9s ease-in-out infinite;
+        animation-delay: 1s;
+        z-index: 0;
+    }
+    #img-13 {
+        position: absolute;
+        width: 190px;
+        height: auto;
+        bottom: 30px;
+        left: -40px;
+        animation: floating 4s ease-in-out infinite;
+        animation-delay: 0.2s;
+        z-index: 2;
+    }
+    #img-14 {
+        position: absolute;
+        width: 270px;
+        height: auto;
+        bottom: 50px;
+        right: 100px;
+        /* filter: hue-rotate(320deg); */
+        animation: floating 5s ease-in-out infinite;
+        animation-delay: 0.1s;
+        z-index: 1;
+    }
+    #img-15 {
+        position: absolute;
+        width: 370px;
+        height: auto;
+        bottom: 300px;
+        right: 100px;
+        animation: floating 6s ease-in-out infinite;
+        animation-delay: 0.14s;
+        z-index: 0;
+    }
+
+    #img-16 {
+        position: absolute;
+        width: 160px;
+        height: auto;
+        top: -120px;
+        right: 5px;
+        animation: floating 3s ease-in-out infinite;
+        animation-delay: 0.1s;
+        z-index: 200;
+    }
+}
+
+
 
 
 /* Container for text in sections */
