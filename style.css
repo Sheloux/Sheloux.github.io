@@ -372,7 +372,7 @@ body {
     left: -60px;
     animation: floating 4s ease-in-out infinite;
     animation-delay: 0.2s;
-    z-index: 1;
+    z-index: 0;
 }
 #img-14 {
     position: absolute;
