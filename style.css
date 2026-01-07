@@ -52,7 +52,9 @@ body {
     position: relative;
     overflow: visible;
 }
-
+   .section-6 {
+        align-items: center;
+    }
 .container {
     display: flex;
     align-items: center;
@@ -103,7 +105,6 @@ body {
     width: 100%;
     height: 100%;
     z-index: 0;
-
     object-fit: cover;
     overflow: hidden;
 }
@@ -288,18 +289,18 @@ body {
 }
 #img-6 {
     position: absolute;
-    width: 540px;
+    width: 520px;
     height: auto;
-    top: 0px;
-    right: -90px;
-    rotate: calc(20deg);
+    bottom: 200px;
+    right: -160px;
+    rotate: calc(15deg);
     animation: floating 4.5s ease-in-out infinite;
     animation-delay: 0.5s;
     z-index: 10;
 }
 #img-7 {
     position: absolute;
-    width: 330px;
+    width: 200px;
     height: auto;
     top: 0px;
     right: 30px;
@@ -344,7 +345,7 @@ body {
 }
 #img-11 {
     position: absolute;
-    width: 290px;
+    width: 240px;
     height: auto;
     top: -200px;
     left: -50px;
@@ -375,20 +376,20 @@ body {
 }
 #img-14 {
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: auto;
-    bottom: 60px;
-    left: 780px;
+    top: 100px;
+    left: 400px;
     animation: floating 5s ease-in-out infinite;
     animation-delay: 0.1s;
     z-index: 0;
 }
 #img-15 {
     position: absolute;
-    width: 500px;
+    width: 550px;
     height: auto;
-    bottom: 160px;
-    right: 500px;
+    bottom: 200px;
+    left: 600px;
     filter: hue-rotate(320deg);
     animation: floating 6s ease-in-out infinite;
     animation-delay: 0.14s;
@@ -435,14 +436,7 @@ body {
         animation: floating 4s ease-in-out infinite;
         animation-delay: 0.5s;
     }
-    .section-3 {
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        position: relative;
-        overflow: visible;
-        z-index: 0;
-    }
+
     #img-3 {
         position: absolute;
         width: 400px;
