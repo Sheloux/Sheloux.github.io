@@ -376,6 +376,7 @@ body {
     height: auto;
     bottom: -270px;
     left: -60px;
+    rotate: calc(20deg);
     animation: floating 4s ease-in-out infinite;
     animation-delay: 0.2s;
     z-index: 0;
@@ -569,8 +570,9 @@ body {
         position: absolute;
         width: 250px;
         height: auto;
-        bottom: 40px;
-        left: 0px;
+        bottom: 100px;
+        left: -100px;
+        rotate: calc(26deg);
         animation: floating 4s ease-in-out infinite;
         animation-delay: 0.2s;
         z-index: 0;
