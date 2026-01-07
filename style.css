@@ -603,7 +603,7 @@ body {
         /* filter: hue-rotate(320deg); */
         animation: floating 5s ease-in-out infinite;
         animation-delay: 0.1s;
-        z-index: 0;
+        z-index: -1;
     }
 
     #img-15 {
