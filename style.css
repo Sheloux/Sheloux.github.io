@@ -70,7 +70,7 @@ body {
 .section-4 {
     align-items: center;
     padding-left: 70px;
-    padding-right: 20px;
+    padding-right: 70px;
 }
 
 .container {
@@ -248,20 +248,19 @@ body {
     position: absolute;
     height: auto;
     animation: floating 6s ease-in-out infinite;
-    width: 800px;
-    top: -30px;
-    right: -300px;
-    rotate: calc(80deg);
+    width: 1000px;
+    top: -70px;
+    right: -400px;
+    rotate: calc(90deg);
     z-index: 100;
 }
 
 #img-2 {
     position: absolute;
-    width: 550px;
+    width: 1200px;
     height: auto;
-    width: 820px;
-    bottom: 20px;
-    left: -400px;
+    bottom: 50px;
+    left: -490px;
     rotate: calc(20deg);
     animation: floating 4s ease-in-out infinite;
     animation-delay: 0.5s;
@@ -283,7 +282,7 @@ body {
     width: 1000px;
     height: auto;
     bottom: 70px;
-    right: -200px;
+    right: -280px;
     rotate: calc(190deg);
     z-index: 0;
     animation: floating 6s ease-in-out infinite;
@@ -292,9 +291,9 @@ body {
 
 #img-5 {
     position: absolute;
-    width: 400px;
+    width: 290px;
     height: auto;
-    top: -300px;
+    top: -200px;
     left: -100px;
     rotate: calc(-10deg);
     animation: floating 6s ease-in-out infinite;
@@ -306,7 +305,7 @@ body {
     position: absolute;
     width: 520px;
     height: auto;
-    bottom: 200px;
+    top: -250px;
     right: -160px;
     rotate: calc(15deg);
     animation: floating 4.5s ease-in-out infinite;
@@ -318,8 +317,8 @@ body {
     position: absolute;
     width: 200px;
     height: auto;
-    top: 0px;
-    right: 30px;
+    top: 50px;
+    left: 150px;
     rotate: calc(-45deg);
     /* filter: hue-rotate(320deg); */
     animation: floating 3s ease-in-out infinite;
@@ -329,10 +328,10 @@ body {
 
 #img-8 {
     position: absolute;
-    width: 400px;
+    width: 700px;
     height: auto;
-    bottom: -80px;
-    right: -100px;
+    bottom: -180px;
+    left: 300px;
     rotate: calc(-20deg);
     animation: floating 5s ease-in-out infinite;
     animation-delay: 1s;
@@ -341,11 +340,11 @@ body {
 
 #img-9 {
     position: absolute;
-    width: 250px;
+    width: 500px;
     height: auto;
-    top: 170px;
-    right: -50px;
-    rotate: calc(50deg);
+    top: 100px;
+    right: -230px;
+    rotate: calc(200deg);
     animation: floating 6s ease-in-out infinite;
     animation-delay: 1s;
     z-index: 10;
@@ -353,19 +352,19 @@ body {
 
 #img-10 {
     position: absolute;
-    width: 600px;
+    width: 780px;
     height: auto;
-    bottom: -20px;
-    right: 0px;
+    bottom: -200px;
+    right: 10px;
     /* rotate: calc(180deg); */
     animation: floating 5s ease-in-out infinite;
     animation-delay: 1s;
-    z-index: 2;
+    z-index: 1;
 }
 
 #img-11 {
     position: absolute;
-    width: 240px;
+    width: 320px;
     height: auto;
     top: -200px;
     left: -50px;
@@ -388,21 +387,21 @@ body {
 
 #img-13 {
     position: absolute;
-    width: 560px;
+    width: 550px;
     height: auto;
     bottom: -270px;
     left: -60px;
     rotate: calc(20deg);
     animation: floating 4s ease-in-out infinite;
     animation-delay: 0.2s;
-    z-index: 0;
+    z-index: 1;
 }
 
 #img-14 {
     position: absolute;
-    width: 250px;
+    width: 450px;
     height: auto;
-    top: 100px;
+    top: 20px;
     left: 400px;
     animation: floating 5s ease-in-out infinite;
     animation-delay: 0.1s;
@@ -411,11 +410,12 @@ body {
 
 #img-15 {
     position: absolute;
-    width: 550px;
+    width: 580px;
     height: auto;
-    bottom: 200px;
-    left: 600px;
+    bottom: 270px;
+    left: 900px;
     filter: hue-rotate(320deg);
+    rotate: calc(10deg);
     animation: floating 6s ease-in-out infinite;
     animation-delay: 0.14s;
     z-index: 0;
@@ -608,9 +608,9 @@ body {
 
     #img-15 {
         position: absolute;
-        width: 20px;
+        width: 200px;
         height: auto;
-        bottom: 300px;
+        bottom: 200px;
         right: 100px;
         animation: floating 6s ease-in-out infinite;
         animation-delay: 0.14s;
