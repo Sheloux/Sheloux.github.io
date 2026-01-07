@@ -52,9 +52,11 @@ body {
     position: relative;
     overflow: visible;
 }
-   .section-6 {
-        align-items: center;
-    }
+
+.section-6 {
+    align-items: center;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -130,24 +132,26 @@ body {
         position: absolute;
         z-index: 1;
     }
-#myVideo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    z-index: 0;
-    overflow: hidden;
-}
 
+    #myVideo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    .section-2,
     .section-4,
     .section-6 {
         height: 100vh;
         width: 100%;
-        padding-left: 18px;
-        padding-right: 18px;
+        padding-left: 12px;
+        padding-right: 14px;
         padding-top: 20px;
         padding-bottom: 20px;
         align-items: center;
@@ -157,8 +161,8 @@ body {
     .section-1 {
         height: 100vh;
         width: 100%;
-        padding-left: 18px;
-        padding-right: 18px;
+        padding-left: 16px;
+        padding-right: 16px;
         padding-top: 20px;
         padding-bottom: 15px;
         overflow: hidden;
@@ -170,10 +174,6 @@ body {
     }
 
     .section-2 {
-        padding-left: 18px;
-        padding-right: 18px;
-        padding-top: 20px;
-        padding-bottom: 20px;
         height: 100vh;
         width: 100%;
         align-items: center;
@@ -190,12 +190,9 @@ body {
     }
 
     .section-4 {
-        padding-left: 18px;
-        padding-right: 18px;
-        padding-top: 20px;
-        padding-bottom: 20px;
         align-items: center;
     }
+
     .section-6 {
         align-items: center;
     }
@@ -230,6 +227,7 @@ body {
 .section-2 .container {
     z-index: 1;
 }
+
 /* LAPTOP VERSION */
 #img-1 {
     position: absolute;
@@ -241,6 +239,7 @@ body {
     rotate: calc(80deg);
     z-index: 100;
 }
+
 #img-2 {
     position: absolute;
     width: 550px;
@@ -253,6 +252,7 @@ body {
     animation-delay: 0.5s;
 
 }
+
 #img-3 {
     position: absolute;
     width: 550px;
@@ -262,6 +262,7 @@ body {
     animation: floating 5s ease-in-out infinite;
     animation-delay: 1s;
 }
+
 #img-4 {
     position: absolute;
     width: 1000px;
@@ -273,6 +274,7 @@ body {
     animation: floating 6s ease-in-out infinite;
     animation-delay: 1.5s;
 }
+
 #img-5 {
     position: absolute;
     width: 400px;
@@ -284,6 +286,7 @@ body {
     animation-delay: 0.3s;
     z-index: 100;
 }
+
 #img-6 {
     position: absolute;
     width: 520px;
@@ -295,6 +298,7 @@ body {
     animation-delay: 0.5s;
     z-index: 10;
 }
+
 #img-7 {
     position: absolute;
     width: 200px;
@@ -307,6 +311,7 @@ body {
     animation-delay: 0.8s;
     z-index: 120;
 }
+
 #img-8 {
     position: absolute;
     width: 400px;
@@ -318,6 +323,7 @@ body {
     animation-delay: 1s;
     z-index: 100;
 }
+
 #img-9 {
     position: absolute;
     width: 250px;
@@ -329,6 +335,7 @@ body {
     animation-delay: 1s;
     z-index: 10;
 }
+
 #img-10 {
     position: absolute;
     width: 600px;
@@ -340,6 +347,7 @@ body {
     animation-delay: 1s;
     z-index: 2;
 }
+
 #img-11 {
     position: absolute;
     width: 240px;
@@ -351,6 +359,7 @@ body {
     animation-delay: 2s;
     z-index: 1;
 }
+
 #img-12 {
     position: absolute;
     width: 418px;
@@ -361,6 +370,7 @@ body {
     animation-delay: 1s;
     z-index: 0;
 }
+
 #img-13 {
     position: absolute;
     width: 560px;
@@ -371,6 +381,7 @@ body {
     animation-delay: 0.2s;
     z-index: 0;
 }
+
 #img-14 {
     position: absolute;
     width: 250px;
@@ -381,6 +392,7 @@ body {
     animation-delay: 0.1s;
     z-index: 0;
 }
+
 #img-15 {
     position: absolute;
     width: 550px;
@@ -392,6 +404,7 @@ body {
     animation-delay: 0.14s;
     z-index: 0;
 }
+
 #img-16 {
     position: absolute;
     width: 360px;
@@ -412,6 +425,7 @@ body {
         height: 100%;
         pointer-events: none;
     }
+
     #img-1 {
         position: absolute;
         height: auto;
@@ -422,6 +436,7 @@ body {
         rotate: calc(80deg);
         z-index: 100;
     }
+
     #img-2 {
         position: absolute;
         width: 250px;
@@ -443,6 +458,7 @@ body {
         animation: floating 5s ease-in-out infinite;
         animation-delay: 1s;
     }
+
     #img-4 {
         position: absolute;
         width: 800px;
@@ -454,6 +470,7 @@ body {
         animation: floating 6s ease-in-out infinite;
         animation-delay: 1.5s;
     }
+
     #img-5 {
         position: absolute;
         width: 260px;
@@ -465,6 +482,7 @@ body {
         animation-delay: 0.3s;
         z-index: 100;
     }
+
     #img-6 {
         position: absolute;
         width: 190px;
@@ -476,6 +494,7 @@ body {
         animation-delay: 0.5s;
         z-index: 10;
     }
+
     #img-7 {
         position: absolute;
         width: 150px;
@@ -487,6 +506,7 @@ body {
         animation-delay: 0.8s;
         z-index: 120;
     }
+
     #img-8 {
         position: absolute;
         width: 280px;
@@ -498,6 +518,7 @@ body {
         animation-delay: 1s;
         z-index: 100;
     }
+
     #img-9 {
         position: absolute;
         width: 300px;
@@ -509,6 +530,7 @@ body {
         animation-delay: 1s;
         z-index: 10;
     }
+
     #img-10 {
         position: absolute;
         width: 400px;
@@ -532,6 +554,7 @@ body {
         animation-delay: 2s;
         z-index: 1;
     }
+
     #img-12 {
         position: absolute;
         width: 418px;
@@ -542,6 +565,7 @@ body {
         animation-delay: 1s;
         z-index: 0;
     }
+
     #img-13 {
         position: absolute;
         width: 250px;
@@ -552,6 +576,7 @@ body {
         animation-delay: 0.2s;
         z-index: 0;
     }
+
     #img-14 {
         position: absolute;
         width: 270px;
@@ -563,6 +588,7 @@ body {
         animation-delay: 0.1s;
         z-index: 1;
     }
+
     #img-15 {
         position: absolute;
         width: 20px;
