@@ -53,6 +53,8 @@ h2 {
         letter-spacing: -0.2px;
         text-align: left;
         overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
     }
 }
 
