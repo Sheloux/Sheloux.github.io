@@ -501,9 +501,9 @@ body {
 
     #img-6 {
         position: absolute;
-        width: 190px;
+        width: 200px;
         height: auto;
-        top: 80px;
+        top: 40px;
         right: -30px;
         rotate: calc(20deg);
         animation: floating 4.5s ease-in-out infinite;
@@ -599,7 +599,7 @@ body {
         width: 260px;
         height: auto;
         bottom: 50px;
-        left: 100px;
+        left: 80px;
         /* filter: hue-rotate(320deg); */
         animation: floating 5s ease-in-out infinite;
         animation-delay: 0.1s;
@@ -614,7 +614,7 @@ body {
         right: 90px;
         animation: floating 6s ease-in-out infinite;
         animation-delay: 0.14s;
-        z-index: 10;
+        z-index: -100;
     }
 
     #img-16 {
