@@ -527,7 +527,7 @@ body {
         position: absolute;
         width: 280px;
         height: auto;
-        bottom: -25px;
+        top: -75px;
         right: -100px;
         rotate: calc(-20deg);
         animation: floating 5s ease-in-out infinite;
@@ -551,7 +551,7 @@ body {
         position: absolute;
         width: 400px;
         height: auto;
-        bottom: -20px;
+        bottom: -70px;
         right: 0px;
         /* rotate: calc(180deg); */
         animation: floating 5s ease-in-out infinite;
@@ -608,13 +608,13 @@ body {
 
     #img-15 {
         position: absolute;
-        width: 200px;
+        width: 800px;
         height: auto;
-        bottom: 200px;
-        right: 100px;
+        bottom: 100px;
+        right: 90px;
         animation: floating 6s ease-in-out infinite;
         animation-delay: 0.14s;
-        z-index: 0;
+        z-index: 10;
     }
 
     #img-16 {
