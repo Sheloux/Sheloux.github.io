@@ -195,8 +195,8 @@ body {
         padding-top: 20px;
         padding-bottom: 20px;
         align-items: center;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
+        /* word-wrap: break-word;
+        overflow-wrap: break-word; */
 
     }
     .section-6 {
@@ -521,7 +521,7 @@ body {
         /* rotate: calc(180deg); */
         animation: floating 5s ease-in-out infinite;
         animation-delay: 1s;
-        z-index: 1;
+        z-index: 0;
     }
 
     #img-11 {
@@ -553,7 +553,7 @@ body {
         left: -50px;
         animation: floating 4s ease-in-out infinite;
         animation-delay: 0.2s;
-        z-index: 2;
+        z-index: 0;
     }
     #img-14 {
         position: absolute;
