@@ -596,14 +596,14 @@ body {
 
     #img-14 {
         position: absolute;
-        width: 270px;
+        width: 260px;
         height: auto;
         bottom: 50px;
-        right: 100px;
+        left: 100px;
         /* filter: hue-rotate(320deg); */
         animation: floating 5s ease-in-out infinite;
         animation-delay: 0.1s;
-        z-index: 1;
+        z-index: 0;
     }
 
     #img-15 {
